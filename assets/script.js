@@ -2,7 +2,7 @@ function loadpk() {
     var pokeInput = document.querySelector('#pokeInput');
 
     var nameOrId = pokeInput.value;
-    var url = 'http://pokeapi.co/api/v2/pokemon/' + nameOrId.toLowerCase();
+    var url = 'https://pokeapi.co/api/v2/pokemon/' + nameOrId.toLowerCase();
 
     fetch(url)
         .then((response) => {
@@ -29,7 +29,7 @@ function changeCardColor() {
     console.log(pokeInput.value)
 
     var nameOrId = pokeInput.value;
-    var url = 'http://pokeapi.co/api/v2/pokemon/' + nameOrId.toLowerCase();
+    var url = 'https://pokeapi.co/api/v2/pokemon/' + nameOrId.toLowerCase();
 
     fetch(url)
         .then((response) => {
